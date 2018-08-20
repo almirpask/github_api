@@ -1,8 +1,8 @@
 require 'spec_helper'
 require 'commits'
 
-REPOSITORY = 'Dinda-com-br'.freeze
-PROJECT = 'braspag-rest'.freeze
+REPOSITORY = 'repository'.freeze
+PROJECT = 'project'.freeze
 
 describe Commits do 
     commits = Commits.new(REPOSITORY, PROJECT)
