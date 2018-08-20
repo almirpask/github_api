@@ -51,7 +51,7 @@ class Commits
     def write_commits
         file_name = "#{@project}_#{Time.now.strftime("%Y_%m_%d_%H%M%S")}"
         file = File.new("./#{file_name}.txt", 'w')
-        CSV.open("./#{@file_name}.csv", 'wb') do |csv|
+        CSV.open("./#{file_name}.csv", 'wb') do |csv|
             csv << [
                 'name',
                 'email',
