@@ -1,7 +1,7 @@
 require './lib/commits.rb'
 
-REPOSITORY = 'repository'.freeze
-PROJECT = 'project'.freeze
+REPOSITORY = 'Dinda-com-br'.freeze
+PROJECT = 'braspag-rest'.freeze
 
 repository = Commits.new(REPOSITORY, PROJECT)
 repository.handle_commit
